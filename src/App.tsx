@@ -1,8 +1,5 @@
 import "./App.css";
 
-function App() {
+export const App = () => {
   return <div>Hello</div>;
-}
-
-export default App;
-
+};
