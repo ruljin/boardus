@@ -1,3 +1,3 @@
 export const Randomizer = () => {
-  <div>Randomizer</div>;
+  return <div>Randomizer</div>;
 };
