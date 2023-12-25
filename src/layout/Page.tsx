@@ -4,7 +4,7 @@ import styles from "./Page.module.css";
 
 export const Page = ({ children }: PropsWithChildren) => (
   <main className={styles.page}>
-    {children}
+    <div className={styles.page__content}>{children}</div>
     <Footer />
   </main>
 );

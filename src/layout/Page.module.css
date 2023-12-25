@@ -1,3 +1,33 @@
 .page {
+  flex-direction: column;
   display: flex;
+}
+
+.page__content {
+  gap: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+.page__footer {
+  margin-top: 15px;
+}
+
+/* .page__text {} */
+
+.page__text--red {
+  color: var(--warning-color);
+}
+
+.page__text--push_right {
+  margin-right: 2px;
+}
+
+.page__link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.page__link:hover {
+  color: var(--secondary-color);
 }
