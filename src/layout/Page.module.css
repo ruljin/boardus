@@ -5,10 +5,13 @@
 
 .page__content {
   gap: 2rem;
+  justify-content: center;
   display: flex;
 }
 
-/* .page__footer {} */
+.page__footer {
+  margin-top: 15px;
+}
 
 /* .page__text {} */
 

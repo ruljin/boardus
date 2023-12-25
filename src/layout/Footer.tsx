@@ -7,7 +7,7 @@ export const Footer = () => (
     >
       &#10084;
     </span>
-    Made with love to boardgames by{" "}
+    Made with love to board games by{" "}
     <a
       className={styles.page__link}
       href="https://github.com/ruljin"
