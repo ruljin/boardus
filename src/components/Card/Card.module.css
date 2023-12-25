@@ -8,6 +8,11 @@
 .card__header {
 }
 
+.card__heading {
+  max-width: 350px;
+  text-wrap: wrap;
+}
+
 .card__body {
 }
 
