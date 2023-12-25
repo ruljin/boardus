@@ -1,0 +1,7 @@
+.randomizer {
+}
+
+.randomizer__wrapper {
+  flex-direction: column;
+  display: flex;
+}
