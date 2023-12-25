@@ -1,0 +1,12 @@
+.game {
+  width: 350px;
+}
+
+.game__wrapper {
+  width: 350px;
+}
+
+.game__image {
+  width: 100%;
+  height: auto;
+}
