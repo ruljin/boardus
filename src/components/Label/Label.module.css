@@ -1,0 +1,6 @@
+.label {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: var(--font-normal);
+  font-weight: 600;
+}
