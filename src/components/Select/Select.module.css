@@ -8,6 +8,10 @@
   font-size: var(--font-small);
 }
 
+.select--multiple {
+  height: 60px;
+}
+
 .select:focus-within {
   outline: 1px solid var(--third-color);
 }

@@ -6,10 +6,10 @@ import { MaximumNumberOfPlayersInput } from "./components/MaximumNumberOfPlayers
 import { GameCategorySelect } from "./components/GameCategorySelect";
 import { GameMechanicsSelect } from "./components/GameMechanicsSelect";
 import { Button } from "../../components/Button/Button";
-import styles from "./Randomizer.module.css";
 import { getMultipleSelectValues } from "./helpers/getMultipleSelectValues";
 import { RandomizerFormData } from "../../models/randomizerFormData";
 import { useGameRandomizer } from "../../context/useGameRandomizer";
+import styles from "./Randomizer.module.css";
 
 interface RandomizerFormElements extends HTMLFormControlsCollection {
   type: HTMLSelectElement;
@@ -24,7 +24,7 @@ interface RandomizerForm extends HTMLFormElement {
 }
 
 export const Randomizer = () => {
-  const context = useGameRandomizer();
+  const { drawAGame } = useGameRandomizer();
 
   const handleSubmit = (event: FormEvent<RandomizerForm>) => {
     event.preventDefault();
@@ -41,7 +41,7 @@ export const Randomizer = () => {
       mechanics: getMultipleSelectValues(target.mechanics.selectedOptions)
     };
 
-    context.drawAGame(formData);
+    drawAGame(formData);
   };
 
   return (

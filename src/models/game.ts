@@ -1,5 +1,6 @@
 export interface Game {
   name: string;
+  description: string;
   type: string[];
   minimumNumberOfPlayers: number;
   maximumNumberOfPlayers: number;
