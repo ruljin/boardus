@@ -1,20 +1,23 @@
 .card {
   border: 1px solid #5f5f5f1f;
   border-radius: 8px;
-  padding: 10px 20px;
   box-shadow: 2px 2px 3px -3px;
+  height: fit-content;
+  padding: 10px 20px;
 }
 
-.card__header {
-}
+/* .card__header {
+} */
 
 .card__heading {
   max-width: 350px;
   text-wrap: wrap;
 }
 
-.card__body {
-}
+/* .card__body {
+} */
 
 .card__footer {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
